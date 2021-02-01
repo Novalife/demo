@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="thread_local" />
-        <module name="agent" />
+        <module name="design_pattern" />
         <module name="eureka" />
         <module name="demo_lock" />
       </profile>
@@ -17,8 +17,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="agent" options="-parameters" />
       <module name="demo_lock" options="-parameters" />
+      <module name="design_pattern" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="thread_local" options="-parameters" />
     </option>

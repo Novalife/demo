@@ -11,7 +11,7 @@
         <module>demo_lock</module>
         <module>eureka</module>
         <module>thread_local</module>
-        <module>agent</module>
+        <module>design_pattern</module>
     </modules>
     <packaging>pom</packaging>
 
