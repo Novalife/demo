@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Premain-Class: club.daixy.demo.agent.AgentTest
+Can-Redefine-Classes: true

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: demo_lock
+  redis:
+    port: 6379
+    host: 192.168.197.204
+    password: 123456
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      # 采样率，模式0.1，也就是10%，为了便于观察效果，改为1.0，也就是100%。生产环境建议保持默认。
+      probability: 1.0
+server:
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123456@localhost:8000/eureka
+  instance:
+    prefer-ip-address: true
+logging:
+  level:
+    root: INFO
+    org.springframework.cloud.sleuth: DEBUG
