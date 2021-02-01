@@ -14,6 +14,9 @@ public class WebMvcConf implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
+        //使拦截器生效，此处参数是我们自定义的拦截器名
         registry.addInterceptor(new MyInterceptor());
+        //添加拦截规则
+//        registry.addInterceptor(new MyInterceptor()).addPathPatterns("/**");
     }
 }

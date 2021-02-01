@@ -30,6 +30,7 @@ public class MyInterceptor implements HandlerInterceptor {
             System.out.println("MyAnnotation: key = " + key + ", value = " + value);
             if (!StringUtils.isEmpty(value)) {
                 System.out.println("这里可以实现例如校验权限等业务逻辑");
+//                return false;
             }
         }
         return true;
