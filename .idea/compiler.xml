@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="annotation" />
-        <module name="thread_local" />
         <module name="design_pattern" />
         <module name="eureka" />
+        <module name="async_task" />
         <module name="demo_lock" />
+        <module name="thread_local" />
+        <module name="schedule_task" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -19,9 +21,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="annotation" options="-parameters" />
+      <module name="async_task" options="-parameters" />
       <module name="demo_lock" options="-parameters" />
       <module name="design_pattern" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="schedule_task" options="-parameters" />
       <module name="thread_local" options="-parameters" />
     </option>
   </component>
