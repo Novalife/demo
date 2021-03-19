@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/schedule_task/pom.xml" />
         <option value="$PROJECT_DIR$/async_task/pom.xml" />
         <option value="$PROJECT_DIR$/multi_thread/pom.xml" />
+        <option value="$PROJECT_DIR$/arithmetic/pom.xml" />
       </list>
     </option>
   </component>
