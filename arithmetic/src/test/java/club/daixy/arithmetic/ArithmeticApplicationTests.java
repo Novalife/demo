@@ -3,6 +3,7 @@ package club.daixy.arithmetic;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 @SpringBootTest
@@ -71,4 +72,27 @@ class ArithmeticApplicationTests {
             array[j + 1] = temp;
         }
     }
+
+    public static String appendStr(String s){
+        s+="bbb";
+        return s;
+    }
+
+    public static StringBuilder appendSb(StringBuilder sb){
+        return sb.append("bbb");
+    }
+
+    @Test
+    public void test(){
+        String s = "aaa";
+        String s1 = appendStr(s);
+        System.out.println(s);
+        System.out.println(s1);
+
+        StringBuilder sb = new StringBuilder("aaa");
+        StringBuilder s2 = appendSb(sb);
+        System.out.println(sb.toString());
+        System.out.println(s2.toString());
+    }
+
 }
