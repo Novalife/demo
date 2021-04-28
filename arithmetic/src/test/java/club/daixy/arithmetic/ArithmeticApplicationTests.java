@@ -60,6 +60,7 @@ class ArithmeticApplicationTests {
             }
     }
 
+    //这个方式也挺好：https://www.cnblogs.com/coding-996/p/12275710.html
     public void insertSort(int[] array) {
         System.out.println("插入排序法");
         for (int i = 1; i < array.length; i++) {

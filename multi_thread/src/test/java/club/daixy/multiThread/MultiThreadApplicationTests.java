@@ -9,5 +9,4 @@ class MultiThreadApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
